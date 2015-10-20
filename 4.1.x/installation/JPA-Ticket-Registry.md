@@ -12,7 +12,7 @@ The JPA Ticket Registry allows CAS to store client authenticated state data (tic
 
 # Configuration
 
-- Adjust the `src/main/webapp/WEB-INF/spring-configuration/ticketRegistry.xml` with the following:
+- Adjust the `src/main/webapp/WEB-INF/cas-servlet.xml` with the following:
 
 {% highlight xml %}
 <bean
